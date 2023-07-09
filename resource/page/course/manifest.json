@@ -1,0 +1,23 @@
+{
+    "list": {
+        "command": [
+            {
+                "name": "Tellraw || 命令",
+                "description": "Tellraw 命令可以在玩家的聊天栏上显示原始文本对象消息。",
+                "src": "/command/tellraw.html"
+            }
+        ],
+        "knowledge": [
+            {
+                "name": "原始文本对象 || 命令组件",
+                "description": "原始文本对象一般是指我的世界中出现的文本数据标签，通常用于Tellraw、Titleraw等命令的参数。",
+                "src": "/knowledge/rawtext.html"
+            },
+            {
+                "name": "目标 || 命令组件",
+                "description": "目标一般是指我的世界中的选择器和玩家名称，通常用于Teleport、Scoreboard等命令的参数。",
+                "src": "/knowledge/target.html"
+            }
+        ]
+    }
+}

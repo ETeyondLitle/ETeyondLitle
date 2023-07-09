@@ -1,0 +1,107 @@
+*
+{
+    page-break-inside: avoid;
+}
+img
+{
+    image-rendering: pixelated;
+    width: 100%;
+}
+body > #command
+{
+    border: 1px solid black;
+}
+ol > li > div > #command:before
+{
+    content: "命令: ";
+}
+ol > li > div > #state:before
+{
+    content: "作用: ";
+}
+ol > li > div > #comment:before
+{
+    content: "注释: ";
+}
+ol > li > div > #frame:before
+{
+    content: "容器: ";
+}
+ol
+{
+    margin: 0;
+    margin-left: 35px;
+}
+ol > li:not(:last-child)
+{
+    padding-bottom: 10px;
+}
+ol > li:first-child > div
+{
+    border-top: none;
+}
+ol > li > div
+{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+ol > li > div > *:not(:last-child)
+{
+    border-bottom: 1px solid black;
+}
+ol > li > div > #comment:last-child
+{
+    border-bottom: 1px solid black;
+}
+ol > li > div > #frame:last-child
+{
+    border-bottom: 1px solid black;
+}
+ol > li:last-child > div > #status
+{
+    border-bottom: none;
+}
+[id="firstranktitle"]
+{
+    text-align: center;
+    font-size: 14.75px;
+}
+[id="oncefirstranktitle"]
+{
+    font-size: 14.75px;
+}
+#content
+{
+    padding: 0.25px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#border
+{
+    margin: 0.5px;
+}
+#command_block > #content
+{
+    border: none;
+    border-left: 1px solid black;
+}
+#command_block > *:not(img)
+{
+    display: inline-block;
+}
+#commandList > #command_block > #content > #status::before {
+    content: "类型设定: ";
+}
+#commandList > #command_block > #content > #tick::before {
+    content: "执行延迟: ";
+}
+#notice, #notice::before {
+    content: "※注意: ";
+    color: red;
+}
+#commandList > #command_block > img
+{
+    width: 38px;
+    height: 38px;
+    vertical-align: top;
+}

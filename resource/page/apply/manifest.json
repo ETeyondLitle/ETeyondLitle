@@ -1,0 +1,34 @@
+{
+    "list": [
+        {
+            "item": {
+                "uuid": "UUID",
+                "name": "抽奖机",
+                "description": "一种通过消耗物品获得某种道具的机器",
+                "data": {
+                    "difficulty": "Lv.3 简单",
+                    "CommandQuantity": "较少, 大约十个",
+                    "constituent": [
+                        "连锁命令方块",
+                        "普通命令方块",
+                        "循环命令方块",
+                        "有条件/受制约的",
+                        "红石激活的命令方块",
+                        "原始文本对象/JSON对象/原始JSON对象"
+                    ],
+                    "command": [
+                        "execute _adaptation",
+                        "scoreboard",
+                        "give",
+                        "tag",
+                        "titleraw"
+                    ],
+                    "possess": [
+                        "course",
+                        "generate"
+                    ]
+                }
+            }
+        }
+    ]
+}

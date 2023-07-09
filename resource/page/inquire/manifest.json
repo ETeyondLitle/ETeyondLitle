@@ -1,0 +1,124 @@
+{
+    "files": {
+        "entityevent": "实体拥有的事件ID",
+        "family": "选择器使用的家族ID及其所含实体",
+        "animation": "Playanimation命令使用的动画ID",
+        "biome": "Locatebiome命令使用的生物群系ID",
+        "event": "Summon等命令使用的实体事件ID",
+        "animationcontroller": "Summon命令使用的动画控制器",
+        "particle": "Particle命令使用的粒子效果ID",
+        "block": "Setblock等命令使用的方块ID",
+        "location": "Replaceitem命令使用的栏位ID",
+        "damage": "Damage命令使用的伤害ID",
+        "fog": "Fog命令使用的迷雾文件ID",
+        "sound": "Sound等命令使用的音效ID",
+        "effect": "Effect命令使用的效果ID",
+        "gamerule": "Gamerule命令使用的规则ID",
+        "structure": "Locate命令使用的世界结构ID",
+        "enchant": "Enchant命令使用的附魔ID",
+        "item": "Give等命令使用的物品ID",
+        "entity": "Summon等命令使用的实体ID",
+        "loot": "Loot命令使用的战利品ID"
+    },
+    "list": [
+        {
+            "name": "Bedrock International Beta Original",
+            "meta": {
+                "version": "1.20.20.20",
+                "channel": "International",
+                "classification": "Bedrock",
+                "type": "Beta"
+            },
+            "branch": "Original",
+            "update": "2023-07-04 08:54:08.96"
+        },
+        {
+            "name": "Bedrock International Beta Education",
+            "meta": {
+                "version": "1.20.20.20",
+                "channel": "International",
+                "classification": "Bedrock",
+                "type": "Beta"
+            },
+            "branch": "Education",
+            "update": "2023-07-04 08:54:09.03"
+        },
+        {
+            "name": "Bedrock International Beta Experiment",
+            "meta": {
+                "version": "1.20.20.20",
+                "channel": "International",
+                "classification": "Bedrock",
+                "type": "Beta"
+            },
+            "branch": "Experiment",
+            "update": "2023-07-04 08:54:09.13"
+        },
+        {
+            "name": "Bedrock International Release Original",
+            "meta": {
+                "version": "1.20.1.02",
+                "channel": "International",
+                "classification": "Bedrock",
+                "type": "Release"
+            },
+            "branch": "Original",
+            "update": "2023-07-04 08:54:09.24"
+        },
+        {
+            "name": "Bedrock International Release Education",
+            "meta": {
+                "version": "1.20.1.02",
+                "channel": "International",
+                "classification": "Bedrock",
+                "type": "Release"
+            },
+            "branch": "Education",
+            "update": "2023-07-04 08:54:09.33"
+        },
+        {
+            "name": "Bedrock International Release Experiment",
+            "meta": {
+                "version": "1.20.1.02",
+                "channel": "Netease",
+                "classification": "Bedrock",
+                "type": "Release"
+            },
+            "branch": "Experiment",
+            "update": "2023-07-04 08:54:09.48"
+        },
+        {
+            "name": "Bedrock Netease Release Original",
+            "meta": {
+                "version": "1.18.31.0.0",
+                "channel": "Netease",
+                "classification": "Bedrock",
+                "type": "Release"
+            },
+            "branch": "Original",
+            "update": "2023-07-04 08:54:09.13"
+        },
+        {
+            "name": "Bedrock Netease Release Experiment",
+            "meta": {
+                "version": "1.18.31.0.0",
+                "channel": "Netease",
+                "classification": "Bedrock",
+                "type": "Release"
+            },
+            "branch": "Experiment",
+            "update": "2023-07-04 08:54:09.20"
+        }
+    ],
+    "update": "2023-07-04 08:54:08.53",
+    "version": {
+        "key": [
+            "Bedrock International Beta",
+            "Bedrock International Release",
+            "Bedrock Netease Release"
+        ],
+        "Bedrock International Beta": "1.20.20.20",
+        "Bedrock International Release": "1.20.1.02",
+        "Bedrock Netease Release": "1.18.31.0.0"
+    }
+}

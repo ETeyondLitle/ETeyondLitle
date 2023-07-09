@@ -1,0 +1,64 @@
+[type="alert"] > [type="mark"]
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2.5px);
+}
+[type="alert"] > [type="mark"] > [type="box"]
+{
+    border-radius: 2px;
+    width: 258px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.95;
+    border: 1px solid black;
+    box-shadow: 2.5px 2.5px 10px gray;
+}
+[type="alert"] > [type="mark"] > [type="box"] > [type="title"]
+{
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+    border-bottom: 1px solid black;
+}
+[type="alert"] > [type="mark"] > [type="box"] > [type="message"]
+{
+    padding-top: 1px;
+    word-break: break-all;
+    height: 301.5px;
+    overflow: auto;
+}
+[type="alert"] > [type="mark"] > [type="box"] > [type="button"]
+{
+    width: 99.87%;
+    border-top: 1px solid black;
+    white-space: nowrap;
+    padding: 0.25px;
+}
+[type="alert"] > [type="mark"] > [type="box"] > [type="button"] > button
+{
+    border-radius: 0.75px;
+}
+[type="alert"] > [type="mark"] > [type="box"] > [type="button"] > button[type="yes"],
+[type="alert"] > [type="mark"] > [type="box"] > [type="button"] > button[type="no"]
+{
+    overflow: auto;
+    width: 49.3%;
+    border: 1px solid black;
+}
+[type="alert"] > [type="mark"] > [type="box"] > [type="button"] > button[type="close"]
+{
+    width: 100%;
+    border: 1px solid black;
+}
+[type="alert"] > [type="mark"] > [type="box"] > [type="message"] > input
+{
+    width: 99.2%;
+    border: 1px solid black;
+}
