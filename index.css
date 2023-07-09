@@ -1,14 +1,8 @@
-@font-face
-{
-    font-family: "default";
-    src: url("./resource/font/default.ttf");
-}
 *
 {
     margin: 0;
     padding: 0;
-    font-family: "default";
-    font-weight: bold;
+    font-weight: thin;
     font-size: 16.75px;
     
 }
