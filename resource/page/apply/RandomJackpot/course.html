@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--设置网页标题-->
+    <title>抽奖机 || 教程页面</title>
+    <!--引入JavaScript客户端脚本-->
+    <script src="../../../../index.js" type="text/javascript" charset="utf-8" onerror="location.reload()"></script>
+    <script src="../../../../resource/script/layer.js" type="text/javascript" charset="utf-8" onerror="location.reload()"></script>
+    <script src="../resource/apply.js" type="text/javascript" charset="utf-8" onerror="location.reload()"></script>
+    <!--引入CSS样式-->
+    <link rel="stylesheet" href="../../../../index.css">
+    <link rel="stylesheet" href="../../../../resource/style/layer.css" type="text/css" media="all" onerror="location.reload()"/>
+    <link rel="stylesheet" href="../../../../resource/style/command.css" type="text/css" media="all" onerror="location.reload()"/>
+    <link rel="stylesheet" href="../resource/apply.css" type="text/css" media="all" onerror="location.reload()"/>
+</head>
+
+<body>
+    <div id="margin">
+        <div id="firstranktitle">
+            需求
+        </div>
+        <div id="border">
+            1. 参与抽奖需要消耗一个钻石。<br>
+            2. 在用户抽到物品时需对用户发出提示。<br>
+            3. 有50%的概率抽到一个铁锭，有30%的概率抽到一个金锭，有10%的概率抽到一个钻石，有5%的概率抽到一个下界合金锭，有5%的概率抽到五个钻石。<br>
+        </div>
+        <div id="firstranktitle">
+            指令实现
+        </div>
+        <div id="onceranktitle">
+            事先准备工作
+        </div>
+        <div id="content" type="command">
+            <ol start="100001">
+                <li>
+                    <div>
+                        <div id="command">
+                            scoreboard objectives add "random" dummy "random"
+                        </div>
+                        <div id="state">
+                            创建一个名称为“random”并且显示名称为“random”的积分版。
+                        </div>
+                        <div id="comment">
+                            创建一个积分版，用于储存随机的分数，以实现“随机抽奖”。
+                        </div>
+                        <div id="frame">
+                            聊天栏/命令方块
+                        </div>
+                    </div>
+                </li>
+            </ol>
+            注意：
+            <div id="border">
+                命令中使用的“random”计分板，所储存的是随机分数，可以替换为您使用的计分板（下文同）。
+            </div>
+        </div>
+        <div id="onceranktitle">
+            抽奖机指令实现
+        </div>
+        <div id="content" type="command">
+            <ol start="100001">
+                <li>
+                    <div>
+                        <div id="command">
+                            tag @p[r=3] add "participant"
+                        </div>
+                        <div id="state">
+                            给以命令方块为执行圆点的半径三格内距离最近的玩家一个“participant”标签。
+                        </div>
+                        <div id="comment">
+                            给参与者一个标签，防止后续出现错误选择参与者。
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div id="command">
+                            scoreboard players random @p[tag="participant"] "random" 1 10000
+                        </div>
+                        <div id="state">
+                            给以命令方块为原点最近且拥有标签“participant”的玩家的“random”计分板上设置一个1~10000之间的随机整数。
+                        </div>
+                        <div id="comment">
+                            给目标一个随机分数，方便后面划分属于第几阶梯。
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div id="command">
+                            titleraw @p[r=3,scores={"random"=1..5000}] actionbar {"rawtext":[{"text": "恭喜玩家: §6"},{"selector": "@p[r=3,scores={"random"=1..5000}]"},{"text": " §0获得奖品：§5一个铁锭§0"}]}
+                        </div>
+                        <div id="state">
+                            给分数为1 ~ 5000的玩家的物品栏上方显示原始文本对象。
+                        </div>
+                        <div id="comment">
+                            给玩家显示奖品的信息，有助于玩家了解中了什么。
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div id="command">
+                            give @p[r=3,scores={"random"=1..5000}] iron_ingot 1 0
+                        </div>
+                        <div id="state">
+                            给分数为1 ~ 5000的玩家的一个铁锭。
+                        </div>
+                        <div id="comment">
+                            给玩家抽奖获得的奖励。
+                        </div>
+                    </div>
+                </li>
+            </ol>
+            命令方块摆放示意图：
+            <div id="commandList">
+                <div id="command_block">
+                    <img src="../../../../resource/data/CommandBlock/bottom/command_block_mipmap.jpg">
+                    <div id="content">
+                        <div id="status">
+                            普通 无条件 红石控制
+                        </div>
+                        <div id="tick">
+                            0tick
+                        </div>
+                    </div>
+                </div>
+                <div id="command_block">
+                    <img src="../../../../resource/data/CommandBlock/bottom/chain_command_block_mipmap.jpg">
+                    <div id="content">
+                        <div id="status">
+                            连锁 无条件 保持开启
+                        </div>
+                        <div id="tick">
+                            0tick
+                        </div>
+                    </div>
+                </div>
+                <div id="command_block">
+                    <img src="../../../../resource/data/CommandBlock/bottom/chain_command_block_mipmap.jpg">
+                    <div id="content">
+                        <div id="status">
+                            连锁 无条件 保持开启
+                        </div>
+                        <div id="tick">
+                            0tick
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tips" style="text-align: center;">
+        你是不是关闭JavaScript了，除非我代码写错了，否则你不可能看到这句话
+    </div>
+</body>
+</html>

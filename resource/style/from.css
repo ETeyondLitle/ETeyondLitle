@@ -1,0 +1,25 @@
+:root
+{
+    --BorderColor: black;
+}
+table
+{
+    width: 100%;
+    border: 1px solid var(--BorderColor);
+    border-collapse: collapse;
+}
+table > thead > tr > *
+{
+    text-align: center;
+}
+table > * > tr > *
+{
+    width: 22.5vw;
+    word-break: break-word;
+    border-bottom: 1px solid var(--BorderColor);
+    border-right: 1px solid var(--BorderColor);
+}
+table > * > tr > *
+{
+    padding: 1px;
+}

@@ -1,0 +1,16 @@
+
+ancientcity 远古城市
+bastionremnant 堡垒遗迹
+buriedtreasure 埋藏的宝藏
+endcity 末地城
+fortress 下界要塞
+mansion 林地府邸
+mineshaft 废弃矿井
+monument 海底神殿
+pillageroutpost 掠夺者前哨站
+ruinedportal 废弃传送门
+ruins 海底废墟
+shipwreck 沉船
+stronghold 要塞
+temple 沙漠神殿/雪屋/丛林神庙/沼泽小屋
+village 村庄

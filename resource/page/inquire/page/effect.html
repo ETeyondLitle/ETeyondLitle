@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--设置网页标题-->
+    <title>效果识别码搜索 || 搜索页面</title>
+    <!--引入JavaScript客户端脚本-->
+    <script src="../resource/inquire.js" type="text/javascript" charset="utf-8" onerror="location.reload()"></script>
+    <script src="../../../../index.js" type="text/javascript" charset="utf-8" onerror="location.reload()"></script>
+    <script src="../../../script/layer.js" type="text/javascript" charset="utf-8" onerror="location.reload()"></script>
+    <script src="../../../script/AdaptabilityDetection.js" type="text/javascript" charset="utf-8" onerror="location.reload()"></script>
+    <!--引入CSS样式-->
+    <link rel="stylesheet" href="../resource/inquire.css" type="text/css" media="all" onerror="location.reload()"/>
+    <link rel="stylesheet" href="../../../style/from.css" type="text/css" media="all" onerror="location.reload()"/>
+    <link rel="stylesheet" href="../../../style/details.css" type="text/css" media="all" onerror="location.reload()"/>
+    <link rel="stylesheet" href="../../../../index.css" type="text/css" media="all" onerror="location.reload()"/>
+    <link rel="stylesheet" href="../../../style/layer.css" type="text/css" media="all" onerror="location.reload()"/>
+</head>
+<body>
+    <div id="margin">
+        <div id="hiding">
+            <div id="center">
+                过滤设置
+            </div>
+            <div id="border">
+                <div>
+                    关键词
+                </div>
+                <div id="border">
+                    <input value="" type="input" id="searchinput" style="width: 99.35%;"><br>
+                </div>
+                <div>
+                    设置
+                </div>
+                <details open>
+                    <summary>
+                        数据组相关
+                    </summary>
+                    <div id="list">
+                        <div>
+                            填写数据组名称
+                            <div id="border">
+                                <input type="input" style="width: 99.35%;" value="Bedrock International Beta Original" id="DataGroupName">
+                            </div>
+                            相关参数介绍
+                            <div id="border">
+                                <div>
+                                    一般语法
+                                </div>
+                                <div id="border">
+                                    语法：游戏版本(Bedrock) + 发行商(International(Mojang)/Netease) + 分支(Original/Education/Experiment)<br>
+                                    例子1: Bedrock International Beta Experiment<br>
+                                    数据组：基岩国际测试版的实验性玩法变种<br>
+                                    例子2: Bedrock Netease Release Original<br>
+                                    数据组：基岩中国发行版原版
+                                </div>
+                                <div>
+                                    可选参数
+                                </div>
+                                <div id="border">
+                                    Netease = 中国版我的世界<br>
+                                    International = 国际版我的世界<br>
+                                    Original = 原版的列表<br>
+                                    Education = 包含教育模式的列表<br>
+                                    Experiment = 包含实验性玩法模式的列表<br>
+                                    Beta = 测试版<br>
+                                    Release = 发行版
+                                </div>
+                                <div>
+                                    注意
+                                </div>
+                                <div id="border">
+                                    1. 网易版不支持教育分支<br>
+                                    2. 网易版不支持测试版<br>
+                                    3. 此数据一般为较新版本开发者会以一到三周为周期更新数据<br>
+                                    4. 开发者暂未填写
+                                </div>
+                            </div>
+                            <div id="center">
+                                <button id="updata">刷新数据组数据</button>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+                <details style="border-top: none;">
+                    <summary>
+                        搜索相关
+                    </summary>
+                    <div id="list">
+                        <div>
+                            最低匹配度：<span id="relevance">5.000</span>%
+                            <div id="border">
+                                <input id="chal" type="range" min="0" max="100" value="5" step="0.001" oninput="document.getElementById('relevance').innerHTML = this.value;">
+                            </div>
+                            以第<input value="2" type="input" style="width: 30px;text-align: center;" id="column">列搜索<br>
+                            <div style="margin-bottom: 0.25px;">
+                                <input value="显示" type="input" style="width: 50px;text-align: center;" id="akf">“项目匹配度”一栏
+                            </div>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <div id="center">
+                过滤结果
+            </div>
+        </div>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>英文识别码</th>
+                    <th>中文识别码</th>
+                    <th id="hidable">项目匹配度</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                
+            </tbody>
+        </table>
+    </div>
+    <script>
+        listdata = [];
+        request({
+            url: "/resource/data/MinecraftID/Bedrock International Beta Original/effect.txt",
+            async: true
+        }, (mes) => {
+            split_ = mes.responseText.split("\n");
+            for (let k = 0; k < split_.length; k++) {
+                temp = split_[k];
+                if (temp != "\n" && temp != "") {
+                    listdata.push(temp)
+                };
+            };
+        });
+        document.getElementById("searchinput").addEventListener("input", () => {
+            res = inquire(document.getElementById("searchinput").value, listdata, document.getElementById("relevance").innerHTML, parseInt(document.getElementById("column").value) - 1);
+            renderContent(res, document.getElementById("tbody"), document.getElementById("akf").value == "显示")
+        });
+        document.getElementById("chal").addEventListener("input", () => {
+            res = inquire(document.getElementById("searchinput").value, listdata, document.getElementById("relevance").innerHTML, parseInt(document.getElementById("column").value) - 1);
+            renderContent(res, document.getElementById("tbody"), document.getElementById("akf").value == "显示")
+        });
+        document.getElementById("updata").addEventListener("click", () => {
+            value = document.getElementById("DataGroupName").value;
+            request({
+                url: "/resource/data/MinecraftID/" + value + "/effect.txt",
+                async: true
+            }, (mes) => {
+                listdata = [];
+                split_ = mes.responseText.split("\n");
+                for (let k = 0; k < split_.length; k++) {
+                    temp = split_[k];
+                    if (temp != "\n" && temp != "") {
+                        listdata.push(temp)
+                    };
+                };
+            });
+        }); 
+    </script>
+</body>
+</html>
