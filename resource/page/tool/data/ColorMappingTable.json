@@ -1,0 +1,1514 @@
+[
+    {
+        "Identify": "log",
+        "Data": 20,
+        "ColorComponent": {
+            "RedComponent": 103,
+            "GreenComponent": 97,
+            "BlueComponent": 87
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 24,
+        "ColorComponent": {
+            "RedComponent": 151,
+            "GreenComponent": 89,
+            "BlueComponent": 55
+        }
+    },
+    {
+        "Identify": "planks",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 168,
+            "GreenComponent": 90,
+            "BlueComponent": 50
+        }
+    },
+    {
+        "Identify": "stone",
+        "Data": 5,
+        "ColorComponent": {
+            "RedComponent": 136,
+            "GreenComponent": 136,
+            "BlueComponent": 137
+        }
+    },
+    {
+        "Identify": "bedrock",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 85,
+            "GreenComponent": 85,
+            "BlueComponent": 85
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 217,
+            "GreenComponent": 215,
+            "BlueComponent": 210
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 6,
+        "ColorComponent": {
+            "RedComponent": 193,
+            "GreenComponent": 179,
+            "BlueComponent": 135
+        }
+    },
+    {
+        "Identify": "planks",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 192,
+            "GreenComponent": 175,
+            "BlueComponent": 121
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 15,
+        "ColorComponent": {
+            "RedComponent": 8,
+            "GreenComponent": 10,
+            "BlueComponent": 15
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 15,
+        "ColorComponent": {
+            "RedComponent": 25,
+            "GreenComponent": 27,
+            "BlueComponent": 32
+        }
+    },
+    {
+        "Identify": "black_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 68,
+            "GreenComponent": 30,
+            "BlueComponent": 32
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 15,
+        "ColorComponent": {
+            "RedComponent": 37,
+            "GreenComponent": 23,
+            "BlueComponent": 16
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 15,
+        "ColorComponent": {
+            "RedComponent": 21,
+            "GreenComponent": 21,
+            "BlueComponent": 26
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 11,
+        "ColorComponent": {
+            "RedComponent": 45,
+            "GreenComponent": 47,
+            "BlueComponent": 143
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 11,
+        "ColorComponent": {
+            "RedComponent": 70,
+            "GreenComponent": 73,
+            "BlueComponent": 167
+        }
+    },
+    {
+        "Identify": "blue_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 47,
+            "GreenComponent": 65,
+            "BlueComponent": 139
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 11,
+        "ColorComponent": {
+            "RedComponent": 74,
+            "GreenComponent": 60,
+            "BlueComponent": 91
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 11,
+        "ColorComponent": {
+            "RedComponent": 53,
+            "GreenComponent": 57,
+            "BlueComponent": 157
+        }
+    },
+    {
+        "Identify": "bone_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 229,
+            "GreenComponent": 226,
+            "BlueComponent": 208
+        }
+    },
+    {
+        "Identify": "bone_block",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 210,
+            "GreenComponent": 206,
+            "BlueComponent": 179
+        }
+    },
+    {
+        "Identify": "bookshelf",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 117,
+            "GreenComponent": 95,
+            "BlueComponent": 60
+        }
+    },
+    {
+        "Identify": "brick_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 151,
+            "GreenComponent": 98,
+            "BlueComponent": 83
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 12,
+        "ColorComponent": {
+            "RedComponent": 96,
+            "GreenComponent": 60,
+            "BlueComponent": 32
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 12,
+        "ColorComponent": {
+            "RedComponent": 126,
+            "GreenComponent": 85,
+            "BlueComponent": 54
+        }
+    },
+    {
+        "Identify": "brown_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 120,
+            "GreenComponent": 106,
+            "BlueComponent": 86
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 12,
+        "ColorComponent": {
+            "RedComponent": 77,
+            "GreenComponent": 51,
+            "BlueComponent": 36
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 12,
+        "ColorComponent": {
+            "RedComponent": 114,
+            "GreenComponent": 72,
+            "BlueComponent": 41
+        }
+    },
+    {
+        "Identify": "quartz_block",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 232,
+            "GreenComponent": 227,
+            "BlueComponent": 218
+        }
+    },
+    {
+        "Identify": "quartz_block",
+        "Data": 5,
+        "ColorComponent": {
+            "RedComponent": 232,
+            "GreenComponent": 227,
+            "BlueComponent": 217
+        }
+    },
+    {
+        "Identify": "red_sandstone",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 183,
+            "GreenComponent": 97,
+            "BlueComponent": 28
+        }
+    },
+    {
+        "Identify": "sandstone",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 216,
+            "GreenComponent": 203,
+            "BlueComponent": 155
+        }
+    },
+    {
+        "Identify": "stonebrick",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 120,
+            "GreenComponent": 119,
+            "BlueComponent": 120
+        }
+    },
+    {
+        "Identify": "clay",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 161,
+            "GreenComponent": 166,
+            "BlueComponent": 179
+        }
+    },
+    {
+        "Identify": "coal_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 16,
+            "GreenComponent": 16,
+            "BlueComponent": 16
+        }
+    },
+    {
+        "Identify": "coal_ore",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 116,
+            "GreenComponent": 116,
+            "BlueComponent": 116
+        }
+    },
+    {
+        "Identify": "dirt",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 119,
+            "GreenComponent": 86,
+            "BlueComponent": 59
+        }
+    },
+    {
+        "Identify": "cobblestone",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 128,
+            "GreenComponent": 127,
+            "BlueComponent": 128
+        }
+    },
+    {
+        "Identify": "stonebrick",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 118,
+            "GreenComponent": 118,
+            "BlueComponent": 118
+        }
+    },
+    {
+        "Identify": "crafting_table",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 129,
+            "GreenComponent": 106,
+            "BlueComponent": 70
+        }
+    },
+    {
+        "Identify": "red_sandstone",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 189,
+            "GreenComponent": 102,
+            "BlueComponent": 32
+        }
+    },
+    {
+        "Identify": "sandstone",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 218,
+            "GreenComponent": 206,
+            "BlueComponent": 160
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 9,
+        "ColorComponent": {
+            "RedComponent": 21,
+            "GreenComponent": 119,
+            "BlueComponent": 136
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 9,
+        "ColorComponent": {
+            "RedComponent": 37,
+            "GreenComponent": 148,
+            "BlueComponent": 157
+        }
+    },
+    {
+        "Identify": "cyan_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 52,
+            "GreenComponent": 119,
+            "BlueComponent": 125
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 9,
+        "ColorComponent": {
+            "RedComponent": 87,
+            "GreenComponent": 91,
+            "BlueComponent": 91
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 9,
+        "ColorComponent": {
+            "RedComponent": 21,
+            "GreenComponent": 138,
+            "BlueComponent": 145
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 21,
+        "ColorComponent": {
+            "RedComponent": 60,
+            "GreenComponent": 47,
+            "BlueComponent": 26
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 25,
+        "ColorComponent": {
+            "RedComponent": 65,
+            "GreenComponent": 43,
+            "BlueComponent": 21
+        }
+    },
+    {
+        "Identify": "planks",
+        "Data": 5,
+        "ColorComponent": {
+            "RedComponent": 67,
+            "GreenComponent": 43,
+            "BlueComponent": 20
+        }
+    },
+    {
+        "Identify": "diamond_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 98,
+            "GreenComponent": 237,
+            "BlueComponent": 228
+        }
+    },
+    {
+        "Identify": "diamond_ore",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 125,
+            "GreenComponent": 143,
+            "BlueComponent": 141
+        }
+    },
+    {
+        "Identify": "stone",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 189,
+            "GreenComponent": 188,
+            "BlueComponent": 189
+        }
+    },
+    {
+        "Identify": "dirt",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 134,
+            "GreenComponent": 96,
+            "BlueComponent": 67
+        }
+    },
+    {
+        "Identify": "emerald_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 42,
+            "GreenComponent": 203,
+            "BlueComponent": 88
+        }
+    },
+    {
+        "Identify": "emerald_ore",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 117,
+            "GreenComponent": 137,
+            "BlueComponent": 124
+        }
+    },
+    {
+        "Identify": "end_stone",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 220,
+            "GreenComponent": 223,
+            "BlueComponent": 158
+        }
+    },
+    {
+        "Identify": "end_bricks",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 218,
+            "GreenComponent": 224,
+            "BlueComponent": 162
+        }
+    },
+    {
+        "Identify": "gold_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 246,
+            "GreenComponent": 208,
+            "BlueComponent": 62
+        }
+    },
+    {
+        "Identify": "gold_ore",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 144,
+            "GreenComponent": 140,
+            "BlueComponent": 125
+        }
+    },
+    {
+        "Identify": "stone",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 149,
+            "GreenComponent": 103,
+            "BlueComponent": 86
+        }
+    },
+    {
+        "Identify": "gravel",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 132,
+            "GreenComponent": 127,
+            "BlueComponent": 127
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 7,
+        "ColorComponent": {
+            "RedComponent": 55,
+            "GreenComponent": 58,
+            "BlueComponent": 62
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 7,
+        "ColorComponent": {
+            "RedComponent": 77,
+            "GreenComponent": 81,
+            "BlueComponent": 85
+        }
+    },
+    {
+        "Identify": "gray_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 83,
+            "GreenComponent": 90,
+            "BlueComponent": 94
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 7,
+        "ColorComponent": {
+            "RedComponent": 58,
+            "GreenComponent": 42,
+            "BlueComponent": 36
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 7,
+        "ColorComponent": {
+            "RedComponent": 63,
+            "GreenComponent": 68,
+            "BlueComponent": 72
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 13,
+        "ColorComponent": {
+            "RedComponent": 73,
+            "GreenComponent": 91,
+            "BlueComponent": 36
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 13,
+        "ColorComponent": {
+            "RedComponent": 97,
+            "GreenComponent": 119,
+            "BlueComponent": 45
+        }
+    },
+    {
+        "Identify": "green_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 117,
+            "GreenComponent": 142,
+            "BlueComponent": 67
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 13,
+        "ColorComponent": {
+            "RedComponent": 76,
+            "GreenComponent": 83,
+            "BlueComponent": 42
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 13,
+        "ColorComponent": {
+            "RedComponent": 85,
+            "GreenComponent": 110,
+            "BlueComponent": 28
+        }
+    },
+    {
+        "Identify": "hay_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 166,
+            "GreenComponent": 136,
+            "BlueComponent": 38
+        }
+    },
+    {
+        "Identify": "hay_block",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 166,
+            "GreenComponent": 139,
+            "BlueComponent": 12
+        }
+    },
+    {
+        "Identify": "iron_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 220,
+            "GreenComponent": 220,
+            "BlueComponent": 220
+        }
+    },
+    {
+        "Identify": "iron_ore",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 136,
+            "GreenComponent": 131,
+            "BlueComponent": 127
+        }
+    },
+    {
+        "Identify": "nether_brick",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 4,
+            "GreenComponent": 4,
+            "BlueComponent": 4
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 85,
+            "GreenComponent": 68,
+            "BlueComponent": 25
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 7,
+        "ColorComponent": {
+            "RedComponent": 150,
+            "GreenComponent": 109,
+            "BlueComponent": 71
+        }
+    },
+    {
+        "Identify": "planks",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 160,
+            "GreenComponent": 115,
+            "BlueComponent": 81
+        }
+    },
+    {
+        "Identify": "lapis_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 31,
+            "GreenComponent": 67,
+            "BlueComponent": 140
+        }
+    },
+    {
+        "Identify": "lapis_ore",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 99,
+            "GreenComponent": 111,
+            "BlueComponent": 133
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 36,
+            "GreenComponent": 137,
+            "BlueComponent": 199
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 74,
+            "GreenComponent": 181,
+            "BlueComponent": 213
+        }
+    },
+    {
+        "Identify": "light_blue_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 95,
+            "GreenComponent": 165,
+            "BlueComponent": 209
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 113,
+            "GreenComponent": 109,
+            "BlueComponent": 138
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 58,
+            "GreenComponent": 175,
+            "BlueComponent": 217
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 8,
+        "ColorComponent": {
+            "RedComponent": 125,
+            "GreenComponent": 125,
+            "BlueComponent": 115
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 8,
+        "ColorComponent": {
+            "RedComponent": 155,
+            "GreenComponent": 155,
+            "BlueComponent": 148
+        }
+    },
+    {
+        "Identify": "silver_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 144,
+            "GreenComponent": 166,
+            "BlueComponent": 168
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 135,
+            "GreenComponent": 107,
+            "BlueComponent": 98
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 142,
+            "GreenComponent": 142,
+            "BlueComponent": 135
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 5,
+        "ColorComponent": {
+            "RedComponent": 94,
+            "GreenComponent": 169,
+            "BlueComponent": 24
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 5,
+        "ColorComponent": {
+            "RedComponent": 125,
+            "GreenComponent": 189,
+            "BlueComponent": 42
+        }
+    },
+    {
+        "Identify": "lime_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 163,
+            "GreenComponent": 198,
+            "BlueComponent": 55
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 5,
+        "ColorComponent": {
+            "RedComponent": 104,
+            "GreenComponent": 118,
+            "BlueComponent": 53
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 5,
+        "ColorComponent": {
+            "RedComponent": 112,
+            "GreenComponent": 185,
+            "BlueComponent": 26
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 169,
+            "GreenComponent": 48,
+            "BlueComponent": 159
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 193,
+            "GreenComponent": 84,
+            "BlueComponent": 185
+        }
+    },
+    {
+        "Identify": "magenta_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 208,
+            "GreenComponent": 100,
+            "BlueComponent": 192
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 150,
+            "GreenComponent": 88,
+            "BlueComponent": 109
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 190,
+            "GreenComponent": 69,
+            "BlueComponent": 180
+        }
+    },
+    {
+        "Identify": "melon_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 114,
+            "GreenComponent": 146,
+            "BlueComponent": 30
+        }
+    },
+    {
+        "Identify": "mossy_cobblestone",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 110,
+            "GreenComponent": 118,
+            "BlueComponent": 95
+        }
+    },
+    {
+        "Identify": "stonebrick",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 115,
+            "GreenComponent": 121,
+            "BlueComponent": 105
+        }
+    },
+    {
+        "Identify": "netherrack",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 98,
+            "GreenComponent": 38,
+            "BlueComponent": 38
+        }
+    },
+    {
+        "Identify": "quartz_ore",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 118,
+            "GreenComponent": 66,
+            "BlueComponent": 62
+        }
+    },
+    {
+        "Identify": "nether_wart_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 115,
+            "GreenComponent": 3,
+            "BlueComponent": 3
+        }
+    },
+    {
+        "Identify": "noteblock",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 89,
+            "GreenComponent": 59,
+            "BlueComponent": 41
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 109,
+            "GreenComponent": 85,
+            "BlueComponent": 51
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 151,
+            "GreenComponent": 122,
+            "BlueComponent": 73
+        }
+    },
+    {
+        "Identify": "planks",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 162,
+            "GreenComponent": 131,
+            "BlueComponent": 79
+        }
+    },
+    {
+        "Identify": "obsidian",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 15,
+            "GreenComponent": 11,
+            "BlueComponent": 25
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 224,
+            "GreenComponent": 97,
+            "BlueComponent": 1
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 227,
+            "GreenComponent": 132,
+            "BlueComponent": 32
+        }
+    },
+    {
+        "Identify": "orange_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 155,
+            "GreenComponent": 147,
+            "BlueComponent": 92
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 162,
+            "GreenComponent": 84,
+            "BlueComponent": 38
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 241,
+            "GreenComponent": 118,
+            "BlueComponent": 20
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 6,
+        "ColorComponent": {
+            "RedComponent": 214,
+            "GreenComponent": 101,
+            "BlueComponent": 143
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 6,
+        "ColorComponent": {
+            "RedComponent": 229,
+            "GreenComponent": 153,
+            "BlueComponent": 181
+        }
+    },
+    {
+        "Identify": "pink_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 235,
+            "GreenComponent": 155,
+            "BlueComponent": 182
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 6,
+        "ColorComponent": {
+            "RedComponent": 162,
+            "GreenComponent": 78,
+            "BlueComponent": 79
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 6,
+        "ColorComponent": {
+            "RedComponent": 238,
+            "GreenComponent": 141,
+            "BlueComponent": 172
+        }
+    },
+    {
+        "Identify": "stone",
+        "Data": 6,
+        "ColorComponent": {
+            "RedComponent": 132,
+            "GreenComponent": 135,
+            "BlueComponent": 134
+        }
+    },
+    {
+        "Identify": "stone",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 193,
+            "GreenComponent": 193,
+            "BlueComponent": 195
+        }
+    },
+    {
+        "Identify": "stone",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 154,
+            "GreenComponent": 107,
+            "BlueComponent": 89
+        }
+    },
+    {
+        "Identify": "pumpkin",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 196,
+            "GreenComponent": 115,
+            "BlueComponent": 24
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 10,
+        "ColorComponent": {
+            "RedComponent": 100,
+            "GreenComponent": 32,
+            "BlueComponent": 156
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 10,
+        "ColorComponent": {
+            "RedComponent": 132,
+            "GreenComponent": 56,
+            "BlueComponent": 178
+        }
+    },
+    {
+        "Identify": "purple_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 110,
+            "GreenComponent": 48,
+            "BlueComponent": 152
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 10,
+        "ColorComponent": {
+            "RedComponent": 118,
+            "GreenComponent": 70,
+            "BlueComponent": 86
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 10,
+        "ColorComponent": {
+            "RedComponent": 122,
+            "GreenComponent": 42,
+            "BlueComponent": 173
+        }
+    },
+    {
+        "Identify": "quartz_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 236,
+            "GreenComponent": 230,
+            "BlueComponent": 223
+        }
+    },
+    {
+        "Identify": "quartz_block",
+        "Data": 2,
+        "ColorComponent": {
+            "RedComponent": 236,
+            "GreenComponent": 231,
+            "BlueComponent": 224
+        }
+    },
+    {
+        "Identify": "quartz_block",
+        "Data": 6,
+        "ColorComponent": {
+            "RedComponent": 235,
+            "GreenComponent": 230,
+            "BlueComponent": 223
+        }
+    },
+    {
+        "Identify": "redstone_block",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 148,
+            "GreenComponent": 20,
+            "BlueComponent": 3
+        }
+    },
+    {
+        "Identify": "redstone_ore",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 133,
+            "GreenComponent": 108,
+            "BlueComponent": 108
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 14,
+        "ColorComponent": {
+            "RedComponent": 142,
+            "GreenComponent": 33,
+            "BlueComponent": 33
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 14,
+        "ColorComponent": {
+            "RedComponent": 168,
+            "GreenComponent": 54,
+            "BlueComponent": 51
+        }
+    },
+    {
+        "Identify": "red_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 182,
+            "GreenComponent": 60,
+            "BlueComponent": 53
+        }
+    },
+    {
+        "Identify": "sand",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 191,
+            "GreenComponent": 103,
+            "BlueComponent": 33
+        }
+    },
+    {
+        "Identify": "red_sandstone",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 187,
+            "GreenComponent": 99,
+            "BlueComponent": 29
+        }
+    },
+    {
+        "Identify": "red_sandstone",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 181,
+            "GreenComponent": 98,
+            "BlueComponent": 31
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 14,
+        "ColorComponent": {
+            "RedComponent": 143,
+            "GreenComponent": 61,
+            "BlueComponent": 47
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 14,
+        "ColorComponent": {
+            "RedComponent": 161,
+            "GreenComponent": 39,
+            "BlueComponent": 35
+        }
+    },
+    {
+        "Identify": "sand",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 219,
+            "GreenComponent": 207,
+            "BlueComponent": 163
+        }
+    },
+    {
+        "Identify": "sandstone",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 216,
+            "GreenComponent": 203,
+            "BlueComponent": 156
+        }
+    },
+    {
+        "Identify": "sandstone",
+        "Data": 3,
+        "ColorComponent": {
+            "RedComponent": 224,
+            "GreenComponent": 214,
+            "BlueComponent": 170
+        }
+    },
+    {
+        "Identify": "smooth_stone",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 159,
+            "GreenComponent": 159,
+            "BlueComponent": 159
+        }
+    },
+    {
+        "Identify": "snow",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 249,
+            "GreenComponent": 254,
+            "BlueComponent": 254
+        }
+    },
+    {
+        "Identify": "soul_sand",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 81,
+            "GreenComponent": 62,
+            "BlueComponent": 51
+        }
+    },
+    {
+        "Identify": "sponge",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 196,
+            "GreenComponent": 192,
+            "BlueComponent": 75
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 59,
+            "GreenComponent": 38,
+            "BlueComponent": 17
+        }
+    },
+    {
+        "Identify": "log",
+        "Data": 5,
+        "ColorComponent": {
+            "RedComponent": 109,
+            "GreenComponent": 80,
+            "BlueComponent": 47
+        }
+    },
+    {
+        "Identify": "planks",
+        "Data": 1,
+        "ColorComponent": {
+            "RedComponent": 115,
+            "GreenComponent": 85,
+            "BlueComponent": 49
+        }
+    },
+    {
+        "Identify": "stone",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 126,
+            "GreenComponent": 126,
+            "BlueComponent": 126
+        }
+    },
+    {
+        "Identify": "stonebrick",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 122,
+            "GreenComponent": 122,
+            "BlueComponent": 122
+        }
+    },
+    {
+        "Identify": "hardened_clay",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 152,
+            "GreenComponent": 94,
+            "BlueComponent": 68
+        }
+    },
+    {
+        "Identify": "tnt",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 182,
+            "GreenComponent": 88,
+            "BlueComponent": 84
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 207,
+            "GreenComponent": 213,
+            "BlueComponent": 214
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 0,
+        "ColorComponent": {
+            "RedComponent": 226,
+            "GreenComponent": 227,
+            "BlueComponent": 228
+        }
+    },
+    {
+        "Identify": "white_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 188,
+            "GreenComponent": 212,
+            "BlueComponent": 203
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 210,
+            "GreenComponent": 178,
+            "BlueComponent": 161
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 234,
+            "GreenComponent": 236,
+            "BlueComponent": 237
+        }
+    },
+    {
+        "Identify": "concrete",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 241,
+            "GreenComponent": 175,
+            "BlueComponent": 21
+        }
+    },
+    {
+        "Identify": "concrete_powder",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 233,
+            "GreenComponent": 199,
+            "BlueComponent": 55
+        }
+    },
+    {
+        "Identify": "yellow_glazed_terracotta",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 234,
+            "GreenComponent": 192,
+            "BlueComponent": 89
+        }
+    },
+    {
+        "Identify": "stained_hardened_clay",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 186,
+            "GreenComponent": 133,
+            "BlueComponent": 35
+        }
+    },
+    {
+        "Identify": "wool",
+        "Data": 4,
+        "ColorComponent": {
+            "RedComponent": 249,
+            "GreenComponent": 198,
+            "BlueComponent": 40
+        }
+    }
+]
