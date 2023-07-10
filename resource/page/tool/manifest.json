@@ -1,0 +1,7 @@
+{
+    "list": {
+        "PixelizationGenerator": {
+            "describe": "读取图片上的像素点并将其映射到mcfunction文件上"
+        }
+    }
+}

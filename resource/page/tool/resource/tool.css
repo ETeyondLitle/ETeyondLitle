@@ -1,0 +1,24 @@
+#IndependentVariableList
+{
+    margin-left: 42px;
+}
+#border
+{
+    overflow: hidden;
+}
+#IndependentVariableList > li:not(:last-child)
+{
+    border-bottom: 1px solid black;
+}
+#IndependentVariableList > li
+{
+    border-left: 1px solid black;
+}
+#inline-block
+{
+    display: inline-block;
+}
+#border
+{
+    border: 1px solid black;
+}

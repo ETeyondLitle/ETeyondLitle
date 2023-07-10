@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--设置网页标题-->
+    <title>Root Document</title>
+    <!--引入JavaScript客户端脚本-->
+    <script src="./index.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./resource/script/layer.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./resource/script/AdaptabilityDetection.js" type="text/javascript" charset="utf-8"></script>
+    
+    <!--引入CSS样式-->
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./resource/style/layer.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./resource/style/from.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./resource/style/details.css" type="text/css" media="all" />
+
+</head>
+
+<body>
+    <div id="margin">
+        <div id="center">
+            目录
+        </div>
+        <details open="">
+            <summary>
+                列表
+            </summary>
+            <div id="list">
+                <details open="">
+                    <summary>
+                        查询
+                    </summary>
+                    上次数据更新时间：<br>
+                    <div id="border" node="update">
+
+                    </div>
+                    上次更新数据版本：<br>
+                    <div id="border" node="upversion">
+
+                    </div>
+                    <div id="list" node="itemlist">
+                    </div>
+                </details>
+                <details open="">
+                    <summary>
+                        教程
+                    </summary>
+                </details>
+            </div>
+        </details>
+        <script>
+            request({
+                url: "./resource/page/inquire/manifest.json",
+                async: true
+            }, (value) => {
+                value = JSON.parse(value.responseText);
+                document.querySelector("[node=update]").innerHTML = value.update;
+                list = value.version.key;
+                for (let k = 0; k < list.length; k++) {
+                    document.querySelector("[node=upversion]").innerHTML += list[k] + ": " + value.version[list[k]] + "<br>";
+                };
+                item = value.files;
+                keys = Object.keys(item);
+                for (let k = 0; k < keys.length; k++) {
+                    document.querySelector("[node=itemlist]").innerHTML += "<div onclick=\"jump(this)\" type=\"" + keys[k] + "\">" + item[keys[k]] + "<div/>";
+                };
+            });
+            function jump(ele) {
+                src = "./resource/page/inquire/page/" + ele.getAttribute("type") + ".html";
+                request({
+                    url: src,
+                    async: true
+                }, (value) => {
+                    location.href = src;
+                });
+            };
+        </script>
+    </div>
+</body>
+
+</html>
